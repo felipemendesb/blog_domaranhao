@@ -1,4 +1,124 @@
-head{
-    background-color: blue;
-    width: 100%;
+/* Configurações Globais / Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    background-color: #f7f9fc;
+    color: #333;
+}
+
+/* Cabeçalho do Blog */
+.main-header {
+    background: linear-gradient(135deg, #ff5722, #ff9800);
+    color: white;
+    text-align: center;
+    padding: 3rem 1rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.main-header h1 {
+    font-size: 2.5rem;
+    margin-bottom: 0.5rem;
+}
+
+.main-header p {
+    font-size: 1.1rem;
+    opacity: 0.9;
+}
+
+/* Container Principal */
+.container {
+    max-width: 800px;
+    margin: 2rem auto;
+    padding: 0 1rem;
+}
+
+/* Caixa de conteúdo */
+.conteudo-principal {
+    background-color: white;
+    padding: 2rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 15px rgba(0,0,0,0.05);
+}
+
+/* Seções e Textos */
+.secao-texto {
+    margin-bottom: 2.5rem;
+}
+
+h2, h3 {
+    color: #2c3e50;
+    margin-bottom: 1rem;
+}
+
+h2 {
+    font-size: 1.8rem;
+    border-bottom: 3px solid #ff5722;
+    padding-bottom: 0.3rem;
+    display: inline-block;
+}
+
+h3 {
+    font-size: 1.4rem;
+    margin-top: 1.5rem;
+}
+
+p {
+    margin-bottom: 1.2rem;
+    font-size: 1.05rem;
+    text-align: justify;
+}
+
+/* Estilização dos termos em destaque */
+strong {
+    color: #ff5722;
+    background-color: #fff3e0;
+    padding: 0.1rem 0.4rem;
+    border-radius: 4px;
+}
+
+/* Container de Imagens Relacionadas */
+.imagem-bloco {
+    margin: 1.5rem 0;
+    text-align: center;
+}
+
+.imagem-bloco img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    transition: transform 0.3s ease;
+}
+
+/* Efeito ao passar o mouse na imagem */
+.imagem-bloco img:hover {
+    transform: scale(1.02);
+}
+
+/* Legenda da imagem (como a dos lençóis) */
+.legenda {
+    display: block;
+    font-size: 0.85rem;
+    color: #666;
+    margin-top: 0.5rem;
+    font-style: italic;
+}
+
+/* Responsividade para celulares menores */
+@media (max-width: 600px) {
+    .main-header h1 {
+        font-size: 2rem;
+    }
+    .conteudo-principal {
+        padding: 1.2rem;
+    }
+    p {
+        font-size: 1rem;
+    }
 }
