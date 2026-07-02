@@ -1,4 +1,4 @@
-/* Configuração básica para a página toda */
+
 body {
     font-family: Arial, sans-serif;
     background-color: #f0f0f0;
@@ -7,7 +7,7 @@ body {
     padding: 0;
 }
 
-/* Cabeçalho da página */
+
 .topo {
     background-color: #ff5722;
     color: white;
@@ -15,7 +15,7 @@ body {
     padding: 20px;
 }
 
-/* Caixa principal do texto */
+
 .conteudo {
     max-width: 700px;
     margin: 20px auto;
@@ -23,7 +23,6 @@ body {
     padding: 20px;
 }
 
-/* Espaçamento dos títulos e parágrafos */
 h2, h3 {
     color: #111;
     margin-top: 20px;
@@ -36,16 +35,14 @@ p {
 
 /* Destaca as gírias em negrito */
 strong {
-    color: #ff5722;
+    color: #2273ff;
 }
 
-/* Caixa para organizar as fotos */
 .bloco-foto {
     text-align: center;
     margin: 15px 0;
 }
 
-/* Ajusta o tamanho das imagens para não estourarem a tela */
 .bloco-foto img {
     max-width: 100%;
     height: auto;
