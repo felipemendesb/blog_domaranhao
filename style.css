@@ -9,7 +9,7 @@ body {
 
 
 .topo {
-    background-color: #ff5722;
+    background-color: #2273ff;
     color: white;
     text-align: center;
     padding: 20px;
@@ -33,7 +33,7 @@ p {
     margin-bottom: 15px;
 }
 
-/* Destaca as gírias em negrito */
+
 strong {
     color: #2273ff;
 }
