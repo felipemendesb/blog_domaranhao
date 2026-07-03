@@ -48,3 +48,9 @@ strong {
     height: auto;
     border: 1px solid #ddd;
 }
+
+.iconblog {
+    position: fixed;
+    left: 20px;
+    opacity: 0.6;
+}
