@@ -52,5 +52,6 @@ strong {
 .iconblog {
     position: fixed;
     left: 20px;
+    top: 50%;
     opacity: 0.6;
 }
