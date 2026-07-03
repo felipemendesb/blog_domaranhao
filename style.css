@@ -52,7 +52,7 @@ strong {
 .iconblog {
     position: fixed;
     left: 20px;
-    top: 50%;
+    bottom: 0;
     opacity: 0.6;
     width: 120px;
     height: 120px;
